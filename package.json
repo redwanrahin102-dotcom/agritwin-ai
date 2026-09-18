@@ -1,0 +1,18 @@
+{
+  "name": "agritwin-ai",
+  "version": "3.0.0",
+  "description": "AgriTwin AI — Digital Twin Farm Simulator with 58 crops, 10 soils, and a 250-strategy optimizer",
+  "private": true,
+  "scripts": {
+    "dev": "vercel dev",
+    "setup-db": "node scripts/setup-db.mjs"
+  },
+  "dependencies": {
+    "@vercel/postgres": "^0.10.0"
+  },
+  "devDependencies": {
+    "vercel": "^37.0.0"
+  },
+  "keywords": ["farm", "simulation", "digital-twin", "agriculture", "optimizer"],
+  "license": "MIT"
+}
